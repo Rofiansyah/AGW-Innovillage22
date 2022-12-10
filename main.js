@@ -1,6 +1,6 @@
 setInterval(function () {
     // fetch("http://localhost:8080/api")
-    fetch("https://innovillage2022.herokuapp.com/api")
+    fetch("https://agw-innovillage22-production.up.railway.app/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
