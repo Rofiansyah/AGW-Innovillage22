@@ -4,16 +4,16 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --title-color: #fff;
+  --title-color: #56c364;
   --text-title: hsl(0, 0%, 0%);
-  --text-color: hsl(231, 89%, 65%);
+  --text-color: hsl(0, 0%, 0%);
   --shape-gradient: linear-gradient(90deg, 
-                    hsl(300, 76%, 60%),
-                    hsl(57, 81%, 60%));
+                    hsl(78, 65%, 85%),
+                    hsl(86, 36%, 78%));
   --body-gradient: linear-gradient(180deg, 
-                hsl(22, 100%, 84%),
-                hsl(265, 100%, 80%));
-  --container-color:hsl(227, 13%, 67%);
+                hsl(115, 23%, 72%),
+                hsl(76, 100%, 94%));
+  --container-color:hsl(0, 0%, 100%);
   
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;

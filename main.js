@@ -7,6 +7,7 @@ setInterval(function () {
         document.getElementById("suhu").innerHTML = res.suhuUdara;
         document.getElementById("kel_udara").innerHTML = res.kelUdara;
         document.getElementById("kel_tanah").innerHTML = res.kelTanah;
+        document.getElementById("parameter").innerHTML = res.parameter;
         document.getElementById("ph").innerHTML = res.phTanah;
         document.getElementById("indikator").innerHTML = res.indikator;
       });

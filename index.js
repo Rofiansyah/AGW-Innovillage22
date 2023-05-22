@@ -13,8 +13,8 @@ app.get("/", function (req, res) {
 });
 
 app.get("/api", function (req, res) {
-  antares.setAccessKey("31cb746757318d7a:9c147700e89be808");
-  antares.get("Innovillage", "AGW").then(function (response) {
+  antares.setAccessKey("2bd7826d64ad2b0b:1fcf0ba1e87c3ad3");
+  antares.get("SmartGardening", "SG").then(function (response) {
     const data = response.content;
     res.json(data);
   });
